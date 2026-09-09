@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>TUTTU</title>
+    <title>TUTTU Calculator</title>
 </head>
 <body>
-    <h1>Hello im a calculator designed for simple mathematical operations by 2 numbers</h1>
+
+    <h1>TUTTU Calculator</h1>
+
+    <p>SAY HI TO TUTTU (only hi)</p>
+    <input type="text" id="greeting">
+
+    <br><br>
+
+    <select id="operation">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+    </select>
+
+    <br><br>
+
+    <input type="number" id="num1" placeholder="First Number">
+    <input type="number" id="num2" placeholder="Second Number">
+
+    <br><br>
+
+    <button onclick="runCalculator()">Calculate</button>
+
+    <h2 id="result"></h2>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
